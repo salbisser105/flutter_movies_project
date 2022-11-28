@@ -14,7 +14,7 @@ There are some upgrades that could be done in order to improve the quality of th
 * Look for opportunities to refactor and improve the code.
 * Add more screens, more functionalities.
 * Improve the UI.
-
+* Improve the Switch between themes, and give a better design as well.
 
 Hope that this helps
 @author:
