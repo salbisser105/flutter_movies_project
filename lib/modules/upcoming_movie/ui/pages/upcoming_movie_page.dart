@@ -31,7 +31,7 @@ class UpcomingMoviePage extends StatelessWidget {
                                 fontSize: 22,
                                 fontWeight: FontWeight.bold),
                           ),
-                          const SizedBox(height: 15),
+                          const SizedBox(height: 10),
                           GestureDetector(
                             onTap: () {
                               Get.snackbar(
@@ -61,7 +61,15 @@ class UpcomingMoviePage extends StatelessWidget {
                                 ],
                               ),
                             ),
-                          )
+                          ),
+                          const SizedBox(height: 10),
+                          ElevatedButton(
+                              onPressed: () {
+                                Get.changeTheme(Get.isDarkMode
+                                    ? ThemeData.light()
+                                    : ThemeData.dark());
+                              },
+                              child: const Text('Switch theme')),
                         ],
                       ),
                     ),
