@@ -1,7 +1,6 @@
 name: flutter_movies_app
 description: A project that uses GetX as state handler and looks forward to implement a bit of clean architecture in order to have a movies application.
-authors:
-  - "Santiago Albisser"
+
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 
